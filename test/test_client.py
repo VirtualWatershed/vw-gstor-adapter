@@ -2,9 +2,9 @@
 Testing module for Virtual Watershed Data adaptor.
 """
 
-from gstor_adapter.client import (make_watershed_metadata, make_fgdc_metadata,
-                                  VWClient, default_vw_client, _get_config,
-                                  metadata_from_file)
+from gstore_adapter.client import (make_watershed_metadata, make_fgdc_metadata,
+                                   VWClient, default_vw_client, _get_config,
+                                   metadata_from_file)
 
 import datetime
 import os

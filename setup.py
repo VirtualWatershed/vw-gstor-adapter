@@ -22,6 +22,7 @@ REQUIRES = [
     "python-swiftclient>=3.0.0"
 ]
 
+
 setup(
     name=NAME,
     version=VERSION,

@@ -621,7 +621,7 @@ def make_fgdc_metadata(file_name, config, model_run_uuid, beg_date, end_date,
         kwargs['file_ext'] = file_name.split('.')[-1]
 
     template_env = Environment(loader=FileSystemLoader(
-                               os.path.join(os.path.dirname(__file__), '../templates')))
+                               os.path.join(os.path.dirname(__file__), 'templates')))
 
     template = template_env.get_template('fgdc_template.xml')
 
@@ -768,7 +768,7 @@ def make_watershed_metadata(file_name, config, parent_model_run_uuid,
     # output = template.substitute(# determined by file file_ext, set within function
     template_env = Environment(loader=FileSystemLoader(
                                os.path.join(os.path.dirname(__file__),
-                                            '../templates')))
+                                            'templates')))
 
     template = template_env.get_template('watershed_template.json')
 
