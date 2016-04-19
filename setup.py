@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 NAME = "vw-gstore-adapter"
-VERSION = "0.0.1"
+VERSION = "1.0.0"
 
 
 # To install the library, run the following
@@ -19,6 +19,7 @@ REQUIRES = [
     "MarkupSafe>=0.23",
     "nose>=1.3.7",
     "requests>=2.9.1",
+    "python-swiftclient>=3.0.0"
 ]
 
 setup(
