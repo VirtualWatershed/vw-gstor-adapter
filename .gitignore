@@ -1,3 +1,7 @@
 default.conf
 *.conf
 *.pyc
+venv
+build
+dist
+vw_gstore_adapter.egg-info
